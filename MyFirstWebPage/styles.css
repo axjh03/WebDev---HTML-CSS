@@ -1,0 +1,119 @@
+/*Since every browser had it's own padding and margings we have to make something to fix it like make something by deafult, for example get rid of unnecessary margin or css scroll*/
+body{
+    margin: 0px;
+    padding: 0;
+    /*We can change the font as well*/
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    color:black;
+    /*make it blue*/
+    
+}
+
+/*
+"#" is used for 'id'
+"." is used for 'class'
+"h1" or any "tag" is used for everything that uses that
+*/
+
+#banner{
+    width:100%;
+    height:50%;
+    object-fit: cover;
+}
+
+.location{
+    color:gray;
+    margin-bottom: 16px; /*Margin don't works for span because they are in-line elements*/
+}
+
+a{
+    text-decoration: none; /* This removes the underline from all the anchor tags*/
+}
+
+#navbar{
+    /* padding-top:8px;
+    padding-bottom:8px;
+    padding-left:8px;
+    padding-right:8px;
+    padding: 8px 8px 8px 8px; */
+    padding: 8px;
+    margin:0px;
+}
+
+#logo{
+    height: 30px;
+}
+
+#about{
+    display: flex; /* This let's the orientation of the divs inside the outer div from vertical to horizontal*/
+    max-width: 800px;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px; 
+}
+
+/*Now we can set the width between description and team*/
+#description{
+    /*Occupy 50% of the area of parent div*/
+    width:60%;
+
+    /*Top Right Bottom Leftn*/
+    padding-right: 8px;
+}
+
+#team{
+    width: 50%;
+}
+
+#team-image{
+    border-radius: 7px;
+    width: 100%; /*It's not 100% of it's size but taking 100% of the div size that it was assigned*/
+}
+
+h2{
+    text-align: center;
+}
+
+#jobs{
+    max-width: 800px;
+    /* 0  is for top and bottom,  auto is for left and right*/
+    margin: 0 auto;
+}
+
+h3{
+    margin-bottom: 0px; /* Changes the distance / spacing between Job Role and Location*/
+    margin-top: 0px ;
+}
+
+.apply{
+    float: right; /*It pulls the apply all the way to the right*/
+}
+
+#footer{
+    background-color: gainsboro;
+    text-align: center;
+}
+
+#footer-links{
+    list-style: none;
+    padding-top: 8px;
+    margin-top: 32px;
+    /* display: flex; It keeps all of them */
+    text-align: center;
+}
+
+
+#footer-links li{ /* We use li because we only want to apply to these items */
+    display:inline;
+    margin: 0px 16px; /* Top-Bottom Left-Right */
+}
+
+.copyright{
+    color: gray;
+}
