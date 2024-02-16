@@ -107,7 +107,7 @@ h3 {
 }
 
 .jobs-data-row td{
-  border: 1px solid gray;
+  border-right: 1px solid gray;
   padding: 8px; /* Since padding is inside the border, it will add space in all || CSS BOX MODEL*/
 }
 
