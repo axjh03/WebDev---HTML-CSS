@@ -1,0 +1,34 @@
+#title{
+    text-align: center;
+    padding: 2px auto;
+}
+
+#overall-table{
+    /* Here we centered a div */
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+#table1{
+    border-collapse: collapse;
+}
+
+#cross{
+    text-align: right;
+}
+
+/* Select all th from the class "table-row-heading" */
+.table-row-heading th{
+    background-color: aqua;
+}
+
+.table-row-data:nth-child(odd){
+    background-color: grey;
+}
+
+.table-row-data:nth-child(even){
+    background-color: whitesmoke;
+}

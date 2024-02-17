@@ -1,7 +1,15 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  /* Roboto is in ' ' because it's external and sans-serif is a backup font that's locally available just incase google's Roboto doesn't work */
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* Selecting multiple tags and applying same properties in them*/
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -103,11 +111,12 @@ h3 {
   border: 1px solid gray;
   padding: 8px;
   background-color: blanchedalmond;
-  text-align: left ;
+  text-align: center9 ;
 }
 
+
 .jobs-data-row td{
-  border-right: 1px solid gray;
+  border: 1px solid gray;
   padding: 8px; /* Since padding is inside the border, it will add space in all || CSS BOX MODEL*/
 }
 
